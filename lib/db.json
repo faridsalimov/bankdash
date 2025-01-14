@@ -1,0 +1,320 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Charlene Reed",
+      "email": "charlene.reed@example.com",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Charlene%2C_Princess_of_Monaco-4.jpg",
+      "dateOfBirth": "1990-01-25",
+      "presentAddress": "742 Silicon Valley Drive",
+      "permanentAddress": "742 Silicon Valley Drive",
+      "city": "San Jose",
+      "postalCode": "95112",
+      "country": "United States",
+      "phone": "+1 (555) 123-4567",
+      "username": "asdasdasd"
+    }
+  ],
+  "cards": [
+    {
+      "id": "1",
+      "userId": "1",
+      "cardNumber": "4532 **** **** 1234",
+      "cardHolder": "Charlene Reed",
+      "validThru": "12/25",
+      "balance": 5756.28,
+      "type": "credit",
+      "cardType": "visa",
+      "currency": "USD",
+      "limit": 10000
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "cardNumber": "5428 **** **** 5391",
+      "cardHolder": "Charlene Reed",
+      "validThru": "09/26",
+      "balance": 2409.43,
+      "type": "debit",
+      "cardType": "mastercard",
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "description": "Netflix Subscription",
+      "transactionId": "TXN48291",
+      "type": "Service",
+      "amount": 15.99,
+      "date": "2024-03-28T00:30:00Z",
+      "status": "Completed",
+      "cardLastFour": "1234",
+      "direction": "outgoing",
+      "category": "Entertainment",
+      "merchant": "Netflix"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "description": "Salary Deposit",
+      "transactionId": "TXN48292",
+      "type": "Transfer",
+      "amount": 5400,
+      "date": "2024-03-25T14:20:00Z",
+      "status": "Completed",
+      "cardLastFour": "5391",
+      "direction": "incoming",
+      "category": "Income",
+      "merchant": "Tech Corp Inc"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "description": "Whole Foods Market",
+      "transactionId": "TXN48293",
+      "type": "Shopping",
+      "amount": 89.43,
+      "date": "2024-03-24T18:45:00Z",
+      "status": "Completed",
+      "cardLastFour": "5391",
+      "direction": "outgoing",
+      "category": "Groceries",
+      "merchant": "Whole Foods"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "description": "AWS Cloud Services",
+      "transactionId": "TXN48294",
+      "type": "Service",
+      "amount": 150,
+      "date": "2024-03-23T12:00:00Z",
+      "status": "Pending",
+      "cardLastFour": "1234",
+      "direction": "outgoing",
+      "category": "Bills",
+      "merchant": "Amazon Web Services"
+    },
+    {
+      "id": "5",
+      "userId": "1",
+      "description": "Freelance Payment",
+      "transactionId": "TXN48295",
+      "type": "Transfer",
+      "amount": 850,
+      "date": "2024-03-22T09:15:00Z",
+      "status": "Completed",
+      "cardLastFour": "5391",
+      "direction": "incoming",
+      "category": "Income",
+      "merchant": "Upwork"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "accountNumber": "1234567890",
+      "accountType": "Checking",
+      "balance": 8165.71,
+      "income": 6250,
+      "expense": 405.42,
+      "totalSaving": 15920.35,
+      "currency": "USD",
+      "status": "Active",
+      "createdAt": "2022-01-15T08:00:00Z"
+    }
+  ],
+  "quickTransferContacts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "name": "Emma Wilson",
+      "role": "Family",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emma_Stone_at_the_2024_New_York_Film_Festival_1_%28cropped%29.jpg/640px-Emma_Stone_at_the_2024_New_York_Film_Festival_1_%28cropped%29.jpg",
+      "accountNumber": "9876543210",
+      "recentTransfer": "2024-03-20T10:30:00Z",
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "name": "Michael Chen",
+      "role": "Business",
+      "avatar": "https://tr.web.img3.acsta.net/c_310_420/pictures/210/152/21015281_20130625213155152.jpg",
+      "accountNumber": "8765432109",
+      "recentTransfer": "2024-03-18T15:45:00Z",
+      "favorite": true
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "name": "Sarah Johnson",
+      "role": "Friend",
+      "avatar": "https://media.nngroup.com/media/people/photos/20211213_Vegas-22.jpg.600x600_q75_autocrop_crop-smart_upscale.jpg",
+      "accountNumber": "7654321098",
+      "recentTransfer": "2024-03-15T09:20:00Z",
+      "favorite": false
+    }
+  ],
+  "userPreferences": [
+    {
+      "userId": "1",
+      "currency": "USD",
+      "timezone": "(GMT-12:00) International Date Line West",
+      "language": "en-US",
+      "notifications": {
+        "digitalCurrency": true,
+        "merchantOrder": true,
+        "recommendations": true
+      },
+      "theme": "light",
+      "twoFactorEnabled": true
+    }
+  ],
+  "activityData": {
+    "weekly": [
+      {
+        "name": "Mon",
+        "deposit": 1200,
+        "withdraw": 450
+      },
+      {
+        "name": "Tue",
+        "deposit": 1800,
+        "withdraw": 680
+      },
+      {
+        "name": "Wed",
+        "deposit": 1400,
+        "withdraw": 890
+      },
+      {
+        "name": "Thu",
+        "deposit": 2200,
+        "withdraw": 380
+      },
+      {
+        "name": "Fri",
+        "deposit": 1900,
+        "withdraw": 920
+      },
+      {
+        "name": "Sat",
+        "deposit": 900,
+        "withdraw": 740
+      },
+      {
+        "name": "Sun",
+        "deposit": 800,
+        "withdraw": 520
+      }
+    ],
+    "monthly": [
+      {
+        "name": "Jan",
+        "amount": 8500
+      },
+      {
+        "name": "Feb",
+        "amount": 7200
+      },
+      {
+        "name": "Mar",
+        "amount": 9100
+      },
+      {
+        "name": "Apr",
+        "amount": 6800
+      },
+      {
+        "name": "May",
+        "amount": 8900
+      },
+      {
+        "name": "Jun",
+        "amount": 7600
+      }
+    ]
+  },
+  "expenseCategories": [
+    {
+      "name": "Entertainment",
+      "percentage": 25
+    },
+    {
+      "name": "Bills",
+      "percentage": 30
+    },
+    {
+      "name": "Investment",
+      "percentage": 20
+    },
+    {
+      "name": "Others",
+      "percentage": 25
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "name": "Apple Store",
+      "time": "5h ago",
+      "amount": 450,
+      "icon": "https://www.svgrepo.com/show/69341/apple-logo.svg"
+    },
+    {
+      "id": 2,
+      "name": "Michael",
+      "time": "2 days ago",
+      "amount": 160,
+      "icon": "https://www.svgrepo.com/show/105517/user-icon.svg"
+    },
+    {
+      "id": 3,
+      "name": "Playstation",
+      "time": "5 days ago",
+      "amount": 1085,
+      "icon": "https://www.svgrepo.com/show/314483/playstation.svg"
+    },
+    {
+      "id": 4,
+      "name": "William",
+      "time": "10 days ago",
+      "amount": 90,
+      "icon": "https://www.svgrepo.com/show/105517/user-icon.svg"
+    }
+  ],
+  "balanceHistory": [
+    {
+      "name": "Jul",
+      "value": 200
+    },
+    {
+      "name": "Aug",
+      "value": 400
+    },
+    {
+      "name": "Sep",
+      "value": 600
+    },
+    {
+      "name": "Oct",
+      "value": 400
+    },
+    {
+      "name": "Nov",
+      "value": 200
+    },
+    {
+      "name": "Dec",
+      "value": 600
+    },
+    {
+      "name": "Jan",
+      "value": 400
+    }
+  ]
+}
